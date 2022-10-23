@@ -69,3 +69,38 @@ body {
     background-color: #d4e9e7;
     margin: 0 auto;
 }
+
+h1 {
+	position: absolute;
+	top: 32%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 64px;
+	color: white;
+  }
+  	
+  nav ul {
+	list-style: none;
+	margin: 0; padding: 0;
+  }
+  
+  nav li {
+	display: inline;
+  }
+  
+  nav a {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	border-right: 1px solid black;
+	padding: 10px 120px;
+	color: black;
+	font-size: 26px;
+	text-decoration: none;
+  }
+  
+  nav li:last-child a {
+	border-right: none;
+  }
+  
+  
