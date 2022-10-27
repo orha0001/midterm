@@ -64,34 +64,38 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
-    width: 1025px;
+.container{
+    width: 1024px;
     background-color: #d4e9e7;
     margin: 0 auto;
+	padding-bottom: 1px;
 }
 
-h1 {
-	position: absolute;
-	top: 32%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 64px;
-	color: white;
-  }
+header {
+	position: relative;
+}
   	
-  nav ul {
+h1{
+    position: absolute;
+	text-align: center;
+	font-size: 65px;
+    top: 200px;
+    left: 320px;
+	color: white;
+}
+
+nav ul {
 	list-style: none;
 	margin: 0; padding: 0;
-  }
+}
   
   nav li {
-	display: inline;
+	display: inline-block;
+
   }
   
   nav a {
 	display: inline-block;
-	font-family: Arial, Helvetica, sans-serif;
 	border-right: 1px solid black;
 	padding: 10px 120px;
 	color: black;
@@ -103,4 +107,89 @@ h1 {
 	border-right: none;
   }
   
+h2 /* Life of a Starfish*/ {
+	font-size: 33px;
+	padding: 10px;
+}
+
+#starfish {
+	float: left;
+	padding: 0 20px 15px 10px ;
+}
+
+h3 /*paragraph*/ {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	padding: 0 15px 15px; 
+}
+
+h4 {
+	font-size: 27px;
+	padding: 12px;
+}
+
+  ul.facts {
+	font-size: 16px;
+	list-style-type:disc;
+	padding-left: 33px;
+  }
+
+h5 {
+	padding: 30px 0 5px 10px;
+	font-size: 27px;
+  }
+
+  div.form {
+	border: 1px solid black;
+	width: auto;
+	margin: 10px;
+	background-color: transparent;
+	padding: 20px;
+  }
   
+  input[type=text] {
+	width: 100%;
+	padding: 5px 20px;
+	margin: 10px 0 20px 0;
+	box-sizing: border-box;
+	border: 1px solid gray;
+  }
+
+  input[id=message] {
+	width: 100%;
+	padding: 50px 20px;
+	margin: 10px 0 20px 0;
+	box-sizing: border-box;
+	border: 1px solid gray;
+  }
+
+h6 {
+	font-size: 25px;
+	padding: 5px 0 20px 0;
+  }
+
+  .radio {
+	display: inline;
+	position: relative;
+	padding-top: 10px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+
+  input[type=submit] {
+	display: block;
+	background-color: transparent;
+	padding: 12px 12px;
+	font-size: 12px;
+	cursor: pointer;
+	margin-top: 20px;
+	border: 1px solid black;
+  }
+
+#footer {
+	position: relative;
+	text-align: right;
+	padding: 30px 35px;
+	width: 954px;
+}
+
